@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+    <xs:element name = 'emploi'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = 'seance ' type = 'SeanceType' minOccurs = '1' 
+                    maxOccurs = 'unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name = "SeanceType">
+        <xs:attribute name = 'jour' type = 'xs:string'/>
+        <xs:attribute name = 'heure_debut' type = 'xs:string'/>
+        <xs:attribute name = 'heure_fin' type = 'xs:string'/>
+        <xs:attribute name = 'enseignant' type = 'xs:string'/>
+        <xs:attribute name = 'module' type = 'xs:string'/>
+        <xs:attribute name = 'salle' type = 'xs:string'/>
+    </xs:complexType>    
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<promotion option="MGL" niveau="2"
+            xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation = "http://www.tutorialspoint.com Untitled2.xsd">
+    <etudiants>
+        <etudiant numInscription="E200" nom="X" prenom="Y"/>
+        <etudiant numInscription="E201" nom="X1" prenom="Y1"/>
+    </etudiants>
+    <modules>
+        <module idModule="E200" nomModule="Web 2.0"/>
+        <module idModule="E201" nomModule="algorithem"/>
+    </modules>
+</promotion>

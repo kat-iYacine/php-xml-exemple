@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="etudiants_modules.xsl"?>
+<promotion option="MGL" niveau="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validateQ6.xsd">
+    <etudiants>
+        <etudiant numInscription="9" nom="Fatima" prenom="Khemissi"/>
+        <etudiant numInscription="3" nom="KATI" prenom="Yacine"/>
+        <etudiant numInscription="6" nom="Khaled" prenom="Houcine"/>
+        <etudiant numInscription="1" nom="NASRI" prenom="Sami"/>
+    </etudiants>
+    <modules>
+        <module idModule="1" nomModule="Android"/>
+        <module idModule="8" nomModule="Anglais"/>
+        <module idModule="7" nomModule="GPI"/>
+        <module idModule="4" nomModule="Maintenance Logiciel"/>
+        <module idModule="5" nomModule="Recherche Bibliographique"/>
+        <module idModule="3" nomModule="XML et Web 2.0"/>
+    </modules>
+</promotion>

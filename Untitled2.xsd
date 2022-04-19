@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:element name = 'promotion'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = 'etudiants ' type = 'Etudients' minOccurs = '1' maxOccurs = 'unbounded' />
+                <xs:element name = 'modules' type = 'Modules' minOccurs = '1' maxOccurs = 'unbounded' />
+            </xs:sequence>
+                <xs:attribute name = 'option' type = 'xs:string'/>
+                <xs:attribute name = 'niveau' type = 'xs:string'/>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:complexType name = "Etudients" >
+        <xs:sequence>
+            <xs:element name = 'etudiant ' type = 'EtudiantType' minOccurs = '1' maxOccurs = 'unbounded' />
+        </xs:sequence>
+    </xs:complexType>
+
+    
+    <xs:complexType name = "Modules">
+        <xs:sequence>
+                <xs:element name = 'module' type = 'ModuleType' minOccurs = '1' maxOccurs = 'unbounded' />
+        </xs:sequence>
+    </xs:complexType>
+
+    
+      <xs:complexType name = "EtudiantType">
+        <xs:attribute name = 'numInscription' type = 'xs:string'/>
+        <xs:attribute name = 'nom' type = 'xs:string'/>
+        <xs:attribute name = 'prenom' type = 'xs:string'/>
+      </xs:complexType>    
+    
+    <xs:complexType name = "ModuleType">
+        <xs:attribute name = 'idModule' type = 'xs:string'/>
+        <xs:attribute name = 'nomModule' type = 'xs:string'/>
+    </xs:complexType> 
+    
+</xs:schema>

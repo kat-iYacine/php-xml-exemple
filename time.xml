@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "stayl.xsl"?> 
+<emploi 
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation = "http://www.tutorialspoint.com Untitled1.xsd">
+    <seance jour="Mardi" heure_debut="8:00" heure_fin="12:30" enseignant="A" module="Android" salle="Salle 5"/>
+    <seance jour="Mardi" heure_debut="14:00" heure_fin="15:30" enseignant="B" module="GPI" salle="Amphi A"/>
+    <seance jour="Mercredi" heure_debut="8:00" heure_fin="9:30" enseignant="C" module="XML et Web 2.0" salle="Labo 1"/>
+    <seance jour="Mercredi" heure_debut="9:30" heure_fin="11:00" enseignant="D" module="Anglais" salle="Salle 4"/>
+    <seance jour="Mardi" heure_debut="15:30" heure_fin="17:00" enseignant="B" module="GPI" salle="Salle 2"/>
+    <seance jour="Mercredi" heure_debut="14:00" heure_fin="15:30" enseignant="C" module="XML et Web 2.0" salle="Labo 1"/>
+    <seance jour="Mercredi" heure_debut="15:30" heure_fin="17:00" enseignant="I" module="Recherche Bibliographique" salle="Amphi C"/>
+    <seance jour="Jeudi" heure_debut="8:00" heure_fin="9:30" enseignant="G" module="Maintenance Logiciel" salle="Salle 3"/>
+    <seance jour="Jeudi" heure_debut="9:30" heure_fin="11:00" enseignant="G" module="Maintenance Logiciel" salle="Salle 2"/>
+</emploi>

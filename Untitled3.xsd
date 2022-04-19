@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:attribute name="t1" type="xs:integer"></xs:attribute>
+    
+    <xs:element name="p1" >
+        <xs:complexType>
+            <xs:simpleContent >
+                <xs:extension base="val">
+                   
+                    <xs:attribute name="t1" type="xs:string" ></xs:attribute>
+                   
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="val">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="5"/>
+            <xs:maxInclusive value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+   
+       
+    
+<xs:element name="sys">
+    <xs:complexType>
+        
+        <xs:all>
+            <xs:element ref="p1" maxOccurs="1" >
+                
+                
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+
+</xs:schema>
